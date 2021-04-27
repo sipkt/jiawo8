@@ -1,106 +1,67 @@
-<!doctype html>
-<html lang="zh-CN">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=1024" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <title>Sipkt.com</title>
-	<meta name="keywords" content="Sipkt.com" />
-    <meta name="description" content="Sipkt.com" />
-    
-
-    <!--link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" /-->
-
-    <link href="www.xiaodao.la.css" rel="stylesheet" />
-
-    <link rel="shortcut icon" href="favicon.png" />
-    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<title>jQuery图片洗牌式旋转切换特效</title>
+<link type="text/css" rel="stylesheet" href="index.css" />
+<script type="text/javascript" src="jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="jquery.corner.js"></script>
+<script type="text/javascript" src="jquery.roundabout.js"></script>
+<script type="text/javascript" src="jquery.roundabout-shapes.js"></script>
+<script type="text/javascript" src="index.js"></script>
 </head>
-<body class="impress-not-supported" onload="timedCount()">
-
-<div class="fallback-message">
-    <p><ddd> sipkt.com </ddd></p>
-    <p><b>welcome</b></p><p> to<b>sipkt</b>, <b>.com</b> sipkt.com<b>sipkt.com</b> sipkt.com</p>
-</div>
-<div id="impress">
-    <div id="bored" class="step slide" data-x="-1000" data-y="-1500">
-        <q><p>sipkt.com</p></q>
+<body>
+<div id="header">
+<div id="gla">
+	<div id="gla_box">
+    	<ul>
+    	
+        	<li>
+            	<div class="gla_inbox">
+                	<p>Picture 1</p>
+                    <img src="20120814204816.jpg" />
+                    <a href="ITDetail.aspx?ID=310">learn more</a>
+                </div>
+            </li>
+            
+        	<li>
+            	<div class="gla_inbox">
+                	<p>Picture 2</p>
+                    <img src="20120814204750.jpg" />
+                    <a href="ITDetail.aspx?ID=312">learn more</a>
+                </div>
+            </li>
+            
+        	<li>
+            	<div class="gla_inbox">
+                	<p>Picture 3</p>
+                    <img src="20120814204733.jpg" />
+                    <a href="ITDetail.aspx?ID=313">learn more</a>
+                </div>
+            </li>
+            
+        	<li>
+            	<div class="gla_inbox">
+                	<p>ITPicture 4</p>
+                    <img src="20120814204711.jpg" />
+                    <a href="ITDetail.aspx?ID=314">learn more</a>
+                </div>
+            </li>
+            
+        	<li>
+            	<div class="gla_inbox">
+                	<p>Picture 5</p>
+                    <img src="20120814204658.jpg" />
+                    <a href="ITDetail.aspx?ID=315">learn more</a>
+                </div>
+            </li>
+            
+        </ul>
     </div>
-
-    <div class="step slide" data-x="0" data-y="-1500">
-        <q>lady's bra and underwear<br /> <a href='https://beigu888.taobao.com' target='_blank'>Click here---</a><br /><a href='https://beigu888.taobao.com' target='_blank'>女士内衣内裤</a></q>
-    </div>
-
-    <div class="step slide" data-x="1000" data-y="-1500">
-        <q>find a partner<br /> <a href='http://www.jiawo8.com' target='_blank'>www.jiawo8.com</a><br /><a href='https://www.jiawo8.com' target='_blank'>交友网站</a></q>
-    </div>
-
-    <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
-        <span class="try">QQ Group</span><br />
-        <h1>26903842</h1><br />
-        <!--span class="footnote"><sup>*</sup> no rhyme intended</span-->
-    </div>
-
-    <div id="its" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
-        <p>sipkt.com</p>
-    </div>
-
-    <div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
-        <p>time count<b><span id="shijian"></span></b><span class="thoughts">sec</span></p>
-    </div>
-
-
-    <div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
-        <p><b> sipkt.com </b></p>
-    </div>
-
-
-    <div id="ing" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
-        <p><span class="px60">visit</span> <b class="positioning">us</b><b class="rotating">@</b><br> <span class="px60">sipkt</span> <b class="scaling">.com</b><br /><xiaozi>sipkt.com</xiaozi></p>
-    </div>
-
-    <div id="imagination" class="step" data-x="6700" data-y="-300" data-scale="6">
-        <p>www.<br /><b class="imagination">sipkt.com</b></p>
-    </div>
-
-    <div id="source" class="step" data-x="6300" data-y="2000" data-rotate="20" data-scale="4">
-        <p>visit us @<br /><b>sipkt.com</b></p>
-    </div>
-
-    <div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="2">
-        <p>sipkt.com</p>
-    </div>
-
-
-    <div id="its-in-3d" class="step" data-x="6200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
-        <p><span class="have">visit</span> <span class="you">us</span> <span class="noticed">@</span> <span class="its">sipkt.com</span> <b><span class="in">sipkt.com</span></b> sipkt.com<sup>sipkt.com</sup></p>
-        <span class="footnote">sipkt.com</span>
-    </div>
-
-
-    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
-    </div>
-
 </div>
 
-
-<div class="hint">
-    <p>请使用 "空格键" 或者 "↑ ↓ ← →" 操控</p>
-</div>
-<script>
-if ("ontouchstart" in document.documentElement) { 
-    document.querySelector(".hint").innerHTML = "<p>按下 "← →" 操控</p>";
-}
-</script>
-
-
-<script src="yhc.js"></script>
-<script src="main.js" charset="utf-8"></script>
-<script>impress().init();</script>
-
-
-<div style="display: none">
-
+<div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';">
+<p>适用浏览器：360、FireFox、Chrome、Safari、Opera、傲游、搜狗、世界之窗. 不支持IE8及以下浏览器。</p>
 </div>
 </body>
 </html>
+
